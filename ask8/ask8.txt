@@ -1,0 +1,4 @@
+>> [s,t]=gensig('square',1,200,.01);
+>> plot(t,s)
+>> [s2,t2]=gensig('pulse',3,100,.01);
+>> plot(t2,s2)
