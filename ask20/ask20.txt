@@ -1,7 +1,0 @@
->> num = [1 0 -1];
->> den = [1 1 1];
->> w = 0:0.1:10;
->> H = freqs(num,den,w)
->> plot(w,abs(H))
->> semilogx(w,20*log10(abs(H)))
->> plot(2,angle(H))
