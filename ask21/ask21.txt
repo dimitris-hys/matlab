@@ -1,7 +1,0 @@
->> w = 2*pi()*j
->> H = ((j*w)^2+1)/((j*w)^2-1);
->> metro = abs(H);
->> fasi = angle(H);
->> t= 0:0.1:10;
->> y = metro.*(cos(5.*t)./(t+1+fasi));
->> plot(t,y);

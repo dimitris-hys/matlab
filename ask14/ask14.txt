@@ -1,6 +1,0 @@
-t = 0:0.01:10;
-u1 = [zeros(1,100),ones(1,901)];
-u2 = [zeros(1,200),ones(1,801)];
-x = u1-u2;
-h = x;
-plot(conv2(h,p))
