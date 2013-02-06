@@ -1,5 +1,0 @@
->> iztrans(1/(z+2))
- 
-ans =
- 
-kroneckerDelta(n, 0)/2 - (-2)^n/2

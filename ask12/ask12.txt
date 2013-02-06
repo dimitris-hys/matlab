@@ -1,6 +1,0 @@
->> t=0:0.1:10;
->> h=exp(-t).*heaviside(t);
->> x = t.*(heaviside(t)-heaviside(t-2));
->> y = conv(x,h)*0.1;
->> ty = 0:0.1:20;
->> plot(ty,y)
